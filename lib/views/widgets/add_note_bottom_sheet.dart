@@ -15,7 +15,7 @@ class AddNoteBottomSheer extends StatelessWidget {
             SizedBox(height: 32),
             CustomTextField(hint: 'Title'),
             SizedBox(height: 16),
-            CustomTextField(hint: 'Content', maxLines: 4),
+            CustomTextField(hint: 'Content', maxLines: 5),
             SizedBox(height: 64),
             CustomButton(),
             SizedBox(height: 16),
