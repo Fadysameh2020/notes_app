@@ -32,7 +32,7 @@ class NotesViewBody extends StatelessWidget {
                 'Build your career with Tharwat Samy',
                 style: TextStyle(
                   color: Colors.black.withOpacity(0.5),
-                  fontSize: 24,
+                  fontSize: 18,
                 ),
               ),
             ),

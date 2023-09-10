@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'notes_view_body.dart';
 
 class NotesListView extends StatelessWidget {
@@ -10,7 +9,7 @@ class NotesListView extends StatelessWidget {
     return ListView.builder(
       itemCount: 4,
       itemBuilder: (context, index) => const Padding(
-        padding: EdgeInsets.symmetric(vertical: 8),
+        padding: EdgeInsets.symmetric(vertical: 4),
         child: NotesViewBody(),
       ),
     );
