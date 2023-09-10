@@ -12,8 +12,14 @@ class NotesApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData.dark(),
-      home: NotesPage(),
+      theme: ThemeData(
+        brightness: Brightness.dark,
+        fontFamily: 'Poppins',
+      ),
+      routes: {
+        NotesPage.id: (context) => const NotesPage(),
+      },
+      initialRoute: NotesPage.id,
     );
   }
 }
