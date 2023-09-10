@@ -14,7 +14,10 @@ class EditNotePage extends StatelessWidget {
             SizedBox(
               height: 40,
             ),
-            CustomAppBar(),
+            CustomAppBar(
+              icon: Icons.done,
+              title: 'Edit Note',
+            ),
           ],
         ),
       ),
