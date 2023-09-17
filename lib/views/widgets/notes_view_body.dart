@@ -11,7 +11,8 @@ class NotesViewBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () => Navigator.pushNamed(context, EditNotePage.id),
+      onTap: () =>
+          Navigator.pushNamed(context, EditNotePage.id, arguments: noteModel),
       child: Container(
         padding: const EdgeInsets.only(
           top: 24,
